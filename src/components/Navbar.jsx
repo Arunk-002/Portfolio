@@ -15,8 +15,8 @@ export default function Navbar() {
   }));
   return (
     <>
-      <nav className="bg-background drop-shadow-xl  fixed w-full z-50">
-        <div className="max-md:px-2 mx-auto  w-full  md:px-6 lg:px-8">
+      <nav className="bg-background max-sm:relative fixed w-full z-50">
+        <div className="max-md:px-2 mx-auto  w-[90%]  md:px-6 lg:px-8">
           <div className="relative flex h-20 items-center justify-between ">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <CustomBtn
@@ -84,13 +84,31 @@ export default function Navbar() {
               <a href="https://github.com/Arunk-002" target="_blank">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/arun-kumar-18bb8129b/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/arun-kumar-18bb8129b/"
+                target="_blank"
+              >
                 <FaLinkedinIn />
               </a>
             </div>
           </div>
         </div>
       </nav>
+      <div className="hidden absolute sm:flex flex-col z-99 justify-center gap-y-2 items-center opacity-80 top-0 left-5">
+        <div className="h-[150px] w-0 border-1 border-text "></div>
+        <div className="flex flex-col gap-y-3 text-text text-xl ">
+          <a href="https://github.com/Arunk-002" className="hover:text-white " target="_blank">
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/arun-kumar-18bb8129b/"
+            className="hover:text-white"
+            target="_blank"
+          >
+            <FaLinkedinIn />
+          </a>
+        </div>
+      </div>
     </>
   );
 }

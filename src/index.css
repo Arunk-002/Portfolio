@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
-@import "tailwindcss";
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+  @import "tailwindcss";
 
-:root{
-  font-family: "Fira Code", monospace;
-}
-
-@theme{
-    --color-background: #1E1E1E;
-    --color-primary:#C778DD;
-    --color-secondary: #FCE38A;
-    --color-accent: #EAFFD0;
-    --color-text: #ABB2BF;
+  :root{
+    font-family: "Fira Code", monospace;
   }
+
+  @theme{
+      --color-background: #282C33;
+      --color-primary:#C778DD;
+      --color-secondary: #FCE38A;
+      --color-accent: #EAFFD0;
+      --color-text: #ABB2BF;
+      --mui-palette-primary: #C778DD;
+      --mui-palette-secondary: #FCE38A;
+      --mui-palette-accent: #EAFFD0;
+      --mui-palette-text: #ABB2BF;
+
+    }
