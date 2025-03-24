@@ -15,10 +15,10 @@ export default function Navbar() {
   }));
   return (
     <>
-      <nav className="bg-background max-sm:relative fixed w-full z-50">
-        <div className="max-md:px-2 mx-auto  w-[90%]  md:px-6 lg:px-8">
+      <nav className="max-sm:relative fixed w-full z-50">
+        <div className="main-container">
           <div className="relative flex h-20 items-center justify-between ">
-            <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <div className="absolute inset-y-0 left-0 max-sm:left-[-20px] flex items-center sm:hidden">
               <CustomBtn
                 variant="text"
                 color="primary"

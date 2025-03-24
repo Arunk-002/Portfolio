@@ -17,3 +17,37 @@
       --mui-palette-text: #ABB2BF;
 
     }
+
+    body{
+      background-color: #282C33;
+    }
+
+
+    .main-container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-inline: 8px; /* Default padding */
+    }
+    
+    /* For small screens (sm) - Phones */
+    @media (max-width: 640px) {
+      .main-container {
+        padding-inline: 10px; /* Reduce padding for very small screens */
+      }
+    }
+    
+    /* For medium screens (md) - Tablets */
+    @media (min-width: 768px) {
+      .main-container {
+        padding-inline: 30px; /* Equivalent to Tailwind md:px-6 */
+      }
+    }
+    
+    /* For large screens (lg) - Laptops & Desktops */
+    @media (min-width: 1024px) {
+      .main-container {
+        padding-inline: 32px; /* Equivalent to Tailwind lg:px-8 */
+      }
+    }
+    
