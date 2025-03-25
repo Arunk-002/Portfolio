@@ -52,7 +52,7 @@ function Projects() {
               <GoArrowRight />
             </a>
           </div>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4 justify-center max-sm:px-3">
             {projects.map((project, index) => (
               <div
                 key={index}
