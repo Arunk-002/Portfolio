@@ -1,4 +1,5 @@
 import React from "react";
+import AnimatedCube from "./AnimatedCube";
 
 const skills = [
     { category: "Languages", items: ["Python", "JavaScript", "C"] },
@@ -18,9 +19,9 @@ function Skills() {
           </p>
           <hr className="h-0 w-full border-primary" />
         </div>
-        <div className="grid grid-cols-2 ">
-            <div className="c">
-                <img src="/Dots.png" alt="" />
+        <div className="grid sm:grid-cols-2">
+            <div className=" self-center">
+                <AnimatedCube skills={skills}/>
             </div>
           <div className="flex flex-wrap gap-4 w-full max-sm:justify-center">
             {skills.map((skill, index) => (
