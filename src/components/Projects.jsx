@@ -25,7 +25,7 @@ function Projects() {
       description:
         "Developed an interactive employee management system supporting CRUD operations with a clean, responsive UI and optimized performance using JavaScript and API integration.",
       techStack: "JavaScript, API, CRUD Operations",
-      liveUrl: "https://employe-management-five.vercel.app/",
+      liveUrl: "https://github.com/Arunk-002/Employe-Management ",
       image: "/employee.png", 
     },
 
@@ -34,7 +34,7 @@ function Projects() {
     <>
       <section
         id="works"
-        className="main-container text-white w-full pt-22 max-sm:pt-6"
+        className="main-container text-white w-full sm:pt-22 "
       >
         <div className="flex flex-col sm:gap-y-28 gap-y-7 min-h-[99vh]">
           <div className="flex justify-between itemes w-full">
