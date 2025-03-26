@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <section className="main-container text-white p t-6 max-sm:pt-18">
+    <section id="about-me" className="main-container text-white md:pt-26 md:pb-32 max-sm:pt-18">
       <div className="grid md:grid-cols-2 max-md:gap-y-4 justify-between items-stretch">
         <div className="flex flex-col gap-y-12">
           <div className="flex items-center gap-x-2">

@@ -11,7 +11,7 @@ const skills = [
 
 function Skills() {
   return (
-    <section className="main-container text-white max-sm:pt-18">
+    <section id="skills" className="main-container text-white max-sm:pt-18">
       <div className="flex flex-col justify-around w-full gap-y-7 min-h-[80vh]">
         <div className="flex items-center gap-x-3 w-[70%] ">
           <p className="text-2xl">

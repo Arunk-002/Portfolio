@@ -15,7 +15,7 @@ export default function Navbar() {
   }));
   return (
     <>
-      <nav className="max-sm:relative absolute w-full z-50">
+      <nav className="max-sm:relative fixed bg-background w-full z-50">
         <div className="main-container">
           <div className="relative flex h-20 items-center justify-between ">
             <div className="absolute inset-y-0 left-0 max-sm:left-[-20px] flex items-center sm:hidden">
@@ -94,7 +94,7 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="hidden absolute sm:flex flex-col z-99 justify-center gap-y-2 items-center opacity-80 top-0 left-5">
+      <div className="hidden fixed sm:flex flex-col z-99 justify-center gap-y-2 items-center opacity-80 top-0 left-5">
         <div className="h-[150px] w-0 border-1 border-text "></div>
         <div className="flex flex-col gap-y-3 text-text text-xl ">
           <a href="https://github.com/Arunk-002" className="hover:text-white " target="_blank">

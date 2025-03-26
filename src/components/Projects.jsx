@@ -33,8 +33,8 @@ function Projects() {
   return (
     <>
       <section
-        id="#works"
-        className="main-container text-white w-full max-sm:pt-6"
+        id="works"
+        className="main-container text-white w-full pt-22 max-sm:pt-6"
       >
         <div className="flex flex-col sm:gap-y-28 gap-y-7 min-h-[99vh]">
           <div className="flex justify-between itemes w-full">

@@ -6,14 +6,14 @@ import { FaSquareFull } from "react-icons/fa6";
 function LandingPage() {
   const CustomBtn = styled(Button)(() => ({
     color: "white",
-    fontSize: 11,
+    fontSize: 13,
     padding:"4px 18px",
     border:"1px solid var(--color-primary)",
     borderRadius:"0px",
     textTransform:"none"
   }));
   return (
-    <section id="#home" className="main-container w-full max-sm:pt-6">
+    <section id="home" className="main-container w-full max-sm:pt-6">
       <div className="min-h-[99vh] max-sm:flex-col  w-full flex items-center max-sm:gap-y-3.5 sm:justify-between">
         <div className="flex flex-col gap-y-5 max-w-[500px]">
           <div className="text-primary max-sm:text-2xl max-[770px]:text-2xl text-4xl ">
