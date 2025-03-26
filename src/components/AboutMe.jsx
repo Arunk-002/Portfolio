@@ -3,7 +3,7 @@ import React from "react";
 function AboutMe() {
   return (
     <section className="main-container text-white p t-6 max-sm:pt-18">
-      <div className="grid md:grid-cols-2 max-md:gap-y-4 justify-between ">
+      <div className="grid md:grid-cols-2 max-md:gap-y-4 justify-between items-stretch">
         <div className="flex flex-col gap-y-12">
           <div className="flex items-center gap-x-2">
             <p className="text-2xl">
