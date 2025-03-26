@@ -29,7 +29,7 @@
     /* For small screens (sm) - Phones */
     @media (max-width: 640px) {
       .main-container {
-        padding-inline: 10px; /* Reduce padding for very small screens */
+        padding-inline: 30px; /* Reduce padding for very small screens */
       }
     }
     

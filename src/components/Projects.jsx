@@ -36,23 +36,23 @@ function Projects() {
         id="#works"
         className="main-container text-white w-full max-sm:pt-6"
       >
-        <div className="flex flex-col gap-y-28 min-h-[99vh]">
+        <div className="flex flex-col sm:gap-y-28 gap-y-7 min-h-[99vh]">
           <div className="flex justify-between itemes w-full">
             <div className="flex w-auto items-center gap-x-3 min-w-[70%] ">
               <p className="text-2xl">
                 <span className="text-primary">#</span>Projects
               </p>
-              <hr className="h-0 w-full  border-primary "></hr>
+              <hr className="h-0 w-full max-sm:hidden border-primary "></hr>
             </div>
             <a
               href="https://github.com/Arunk-002"
-              className="decoration-white decoration-1 underline-offset-3 hover:underline flex gap-x-2 items-center text-sm"
+              className="decoration-white decoration-1 max-sm:text-xs underline-offset-3 hover:underline flex gap-x-2 items-center text-sm"
             >
               view all
               <GoArrowRight />
             </a>
           </div>
-          <div className="flex flex-wrap gap-4 justify-center max-sm:px-3">
+          <div className="flex flex-wrap gap-4 justify-center">
             {projects.map((project, index) => (
               <div
                 key={index}

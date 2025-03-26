@@ -3,6 +3,8 @@ import Navbar from "./Navbar";
 import LandingPage from './LandingPage';
 import Projects from './Projects';
 import Skills from './Skills';
+import AboutMe from './AboutMe';
+import Contact from './Contact';
 
 function Home() {
   return (
@@ -11,6 +13,8 @@ function Home() {
         <LandingPage/>
         <Projects/>
         <Skills/>
+        <AboutMe/>
+        <Contact/>
     </div>
   )
 }

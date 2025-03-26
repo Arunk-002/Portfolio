@@ -11,21 +11,21 @@ const skills = [
 
 function Skills() {
   return (
-    <section className="main-container text-white">
-      <div className="flex flex-col gap-y-3 w-full">
+    <section className="main-container text-white max-sm:pt-18">
+      <div className="flex flex-col justify-around w-full gap-y-7 min-h-[80vh]">
         <div className="flex items-center gap-x-3 w-[70%] ">
           <p className="text-2xl">
             <span className="text-primary">#</span>Skills
           </p>
-          <hr className="h-0 w-full border-primary" />
+          <hr className="h-0 w-full max-sm:hidden border-primary" />
         </div>
         <div className="grid sm:grid-cols-2">
-            <div className=" self-center">
+            <div className="max-sm:hidden self-center">
                 <AnimatedCube skills={skills}/>
             </div>
           <div className="flex flex-wrap gap-4 w-full max-sm:justify-center">
             {skills.map((skill, index) => (
-              <div key={index} className="border-2 border-text flex flex-col max-w-min  h-fit">
+              <div key={index} className="border-2 border-text flex flex-col w-full sm:max-w-min  h-fit">
                 <div className="flex flex-col">
                   <p className="text-md px-2 border-y-2 border-text">{skill.category}</p>
                 </div>
