@@ -13,7 +13,7 @@ function AboutMe() {
           </div>
           <div className="flex flex-col gap-y-4 text-text">
             <p>Hello, i’m Arun! </p>
-            <p>     
+            <p>
               I’m a self-taught MERN Stack developer based in Kerala, India. I
               can develop responsive websites from scratch and raise them into
               modern user-friendly web experiences.
@@ -25,7 +25,13 @@ function AboutMe() {
             </p>
           </div>
         </div>
-        <div><img src="/Image.png" alt="" /></div>
+        <div>
+          <img
+            src="/Image.png"
+            className="filter transition-all delay-100 hover:drop-shadow-[0_0_20px_rgba(171,178,191,0.7)]"
+            alt=""
+          />
+        </div>
       </div>
     </section>
   );
