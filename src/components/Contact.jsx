@@ -4,7 +4,7 @@ import { SiGoogledocs } from "react-icons/si";
 
 function Contact() {
   return (
-    <section id="contact" className="main-container max-sm:pt-18 py-12">
+    <section id="contact" className="main-container">
       <div className="grid max-md:gap-y-7 sm:grid-cols-2 text-white min-h-[50vh]">
         <div className="flex flex-col gap-y-12">
           <div className="flex items-center gap-x-3 w-[70%] ">

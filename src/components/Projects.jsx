@@ -34,7 +34,7 @@ function Projects() {
     <>
       <section
         id="works"
-        className="main-container text-white w-full sm:pt-22 "
+        className="main-container text-white w-full"
       >
         <div className="flex flex-col sm:gap-y-28 gap-y-7 min-h-[99vh]">
           <div className="flex justify-between itemes w-full">

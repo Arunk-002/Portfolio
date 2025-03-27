@@ -11,12 +11,14 @@ function Home() {
   return (
     <div>
         <Navbar/>
+        <div className='flex flex-col gap-y-8'>
         <LandingPage/>
         <Projects/>
         <Skills/>
         <AboutMe/>
         <Contact/>
         <Footer/>
+        </div>
     </div>
   )
 }

@@ -1,49 +1,49 @@
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
-  @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+@import "tailwindcss";
 
-  :root{
-    font-family: "Fira Code", monospace;
+:root {
+  font-family: "Fira Code", monospace;
+}
+
+@theme {
+  --color-background: #282c33;
+  --color-primary: #c778dd;
+  --color-secondary: #fce38a;
+  --color-accent: #eaffd0;
+  --color-text: #abb2bf;
+}
+
+body {
+  background-color: #282c33;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.main-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 8px; /* Default padding */
+}
+
+/* For small screens (sm) - Phones */
+@media (max-width: 640px) {
+  .main-container {
+    padding-inline: 30px; /* Reduce padding for very small screens */
   }
+}
 
-  @theme{
-      --color-background: #282C33;
-      --color-primary:#C778DD;
-      --color-secondary: #FCE38A;
-      --color-accent: #EAFFD0;
-      --color-text: #ABB2BF;
+/* For medium screens (md) - Tablets */
+@media (min-width: 768px) {
+  .main-container {
+    padding-inline: 30px; /* Equivalent to Tailwind md:px-6 */
+  }
+}
 
-    }
-
-    body{
-      background-color: #282C33;
-    }
-
-
-    .main-container {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding-inline: 8px; /* Default padding */
-    }
-    
-    /* For small screens (sm) - Phones */
-    @media (max-width: 640px) {
-      .main-container {
-        padding-inline: 30px; /* Reduce padding for very small screens */
-      }
-    }
-    
-    /* For medium screens (md) - Tablets */
-    @media (min-width: 768px) {
-      .main-container {
-        padding-inline: 30px; /* Equivalent to Tailwind md:px-6 */
-      }
-    }
-    
-    /* For large screens (lg) - Laptops & Desktops */
-    @media (min-width: 1024px) {
-      .main-container {
-        padding-inline: 32px; /* Equivalent to Tailwind lg:px-8 */
-      }
-    }
-    
+/* For large screens (lg) - Laptops & Desktops */
+@media (min-width: 1024px) {
+  .main-container {
+    padding-inline: 32px; /* Equivalent to Tailwind lg:px-8 */
+  }
+}

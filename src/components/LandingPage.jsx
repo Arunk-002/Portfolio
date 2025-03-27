@@ -4,7 +4,7 @@ import { FaSquareFull } from "react-icons/fa6";
 function LandingPage() {
   return (
     <section id="home" className="main-container w-full max-sm:pt-8">
-      <div className="min-h-[99vh] max-sm:flex-col  w-full flex items-center max-sm:gap-y-3.5 sm:justify-between">
+      <div className="min-h-[99vh] max-sm:flex-col max-sm:justify-center  w-full flex items-center max-sm:gap-y-3.5 sm:justify-between">
         <div className="flex flex-col gap-y-5 max-w-[500px]">
           <div className="text-primary max-sm:text-2xl max-[770px]:text-2xl text-4xl ">
             <span className="text-white">Arun is a </span> web designer{" "}

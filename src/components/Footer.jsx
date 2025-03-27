@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 function Footer() {
   return (
-    <section className="max-sm:pt-18 mt-8">
+    <section className=" mt-8">
       <div className="border-t-2 border-text flex flex-col gap-y-4 py-6  items-center">
         <div className="flex gap-x-3 text-text text-xl sm:text-2xl">
           <a
