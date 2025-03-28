@@ -54,7 +54,7 @@ export default function Navbar() {
                           animateOn="view"
                           revealDirection="center"
                           speed={100}
-                          maxIterations={15}
+                          maxIterations={20}
                         />
                       </a>
                     );

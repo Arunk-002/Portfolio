@@ -37,7 +37,7 @@ function Skills() {
               animateOn="view"
               revealDirection="center"
               speed={100}
-              maxIterations={15}
+              maxIterations={20}
             />
           </p>
           <hr className="h-0 w-full max-sm:hidden border-primary" />
