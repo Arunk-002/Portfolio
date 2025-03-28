@@ -1,6 +1,7 @@
 import React from "react";
 import { IoMail } from "react-icons/io5";
 import { SiGoogledocs } from "react-icons/si";
+import DecryptedText from "./DecryptedText";
 
 function Contact() {
   return (
@@ -8,8 +9,15 @@ function Contact() {
       <div className="grid max-md:gap-y-7 sm:grid-cols-2 text-white min-h-[50vh]">
         <div className="flex flex-col gap-y-12">
           <div className="flex items-center gap-x-3 w-[70%] ">
-            <p className="text-2xl">
-              <span className="text-primary">#</span>contact
+            <p className="text-2xl flex items-center">
+              <span className="text-primary">#</span>
+              <DecryptedText
+                text="Contact"
+                animateOn="view"
+                revealDirection="center"
+                speed={100}
+                maxIterations={15}
+              />
             </p>
             <hr className="h-0 w-full max-sm:hidden border-primary" />
           </div>

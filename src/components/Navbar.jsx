@@ -4,6 +4,7 @@ import Button from "@mui/material/Button";
 import { IoMdClose } from "react-icons/io";
 import { styled } from "@mui/material/styles";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import DecryptedText from "./DecryptedText";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -48,7 +49,13 @@ export default function Navbar() {
                         href={`#${elem}`}
                       >
                         <span className="text-primary">#</span>
-                        {elem}
+                        <DecryptedText
+                          text={`${elem}`}
+                          animateOn="view"
+                          revealDirection="center"
+                          speed={100}
+                          maxIterations={15}
+                        />
                       </a>
                     );
                   })}
@@ -97,7 +104,11 @@ export default function Navbar() {
       <div className="hidden fixed sm:flex flex-col z-99 justify-center gap-y-2 items-center opacity-80 top-0 left-5">
         <div className="h-[150px] w-0 border-1 border-text "></div>
         <div className="flex flex-col gap-y-3 text-text text-xl ">
-          <a href="https://github.com/Arunk-002" className="hover:text-white " target="_blank">
+          <a
+            href="https://github.com/Arunk-002"
+            className="hover:text-white "
+            target="_blank"
+          >
             <FaGithub />
           </a>
           <a

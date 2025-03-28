@@ -1,6 +1,7 @@
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
+import DecryptedText from "./DecryptedText";
 
 function Projects() {
   const projects = [
@@ -26,21 +27,24 @@ function Projects() {
         "Developed an interactive employee management system supporting CRUD operations with a clean, responsive UI and optimized performance using JavaScript and API integration.",
       techStack: "JavaScript, API, CRUD Operations",
       liveUrl: "https://github.com/Arunk-002/Employe-Management ",
-      image: "/employee.png", 
+      image: "/employee.png",
     },
-
   ];
   return (
     <>
-      <section
-        id="works"
-        className="main-container text-white w-full"
-      >
+      <section id="works" className="main-container text-white w-full">
         <div className="flex flex-col sm:gap-y-28 gap-y-7 min-h-[99vh]">
           <div className="flex justify-between itemes w-full">
             <div className="flex w-auto items-center gap-x-3 min-w-[70%] ">
-              <p className="text-2xl">
-                <span className="text-primary">#</span>Projects
+              <p className="text-2xl flex items-center">
+                <span className="text-primary">#</span>
+                <DecryptedText
+                  text="Projects"
+                  animateOn="view"
+                  revealDirection="center"
+                  speed={100}
+                  maxIterations={15}
+                />
               </p>
               <hr className="h-0 w-full max-sm:hidden border-primary "></hr>
             </div>
@@ -68,7 +72,11 @@ function Projects() {
                   <p className="text-xl">{project.name}</p>
                   <p className="text-text text-md">{project.description}</p>
                   <div className="flex gap-x-5">
-                    <a href={project.liveUrl} target="_blank" className="border-1 border-primary px-3 py-2 hover:bg-primary/30 flex items-center">
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      className="border-1 border-primary px-3 py-2 hover:bg-primary/30 flex items-center"
+                    >
                       Live{" "}
                       <span className="pl-2 text-xs flex items-center">
                         <SlArrowLeft />~<SlArrowRight />
